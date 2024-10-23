@@ -5,7 +5,7 @@ document.write(b);
 
 for (let i = 2; i < 10; i++) {
     siguiente = a + b;
-    document.write(siguiente);
+    document.write(siguiente + ", ");
     a = b;
     b = siguiente;
 }
